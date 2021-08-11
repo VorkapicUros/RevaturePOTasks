@@ -18,6 +18,7 @@ public class Integral {
 				System.out.printf("The integral of: f(x) = (%d + 1) * x^%d from %d to %d is: ", b, b, m, n);
 				System.out.println((long) (Math.pow(n, b + 1) - Math.pow(m, b + 1)));
 				input = bf.readLine();
+
 			}
 		} catch (IOException e) {
 			e.printStackTrace();

@@ -1,0 +1,5 @@
+The answer is (b); the data in statement II alone is sufficient to answer the question.
+Statement I is of no help, since a month can be 28, 30 or 31 days long, and thus the day the end of the month
+falls on is irrelevant.
+Statement II counts from the beginning of the month, and since 17 is a valid day for a third Saturday, we can calculate
+what date any day will fall under.
