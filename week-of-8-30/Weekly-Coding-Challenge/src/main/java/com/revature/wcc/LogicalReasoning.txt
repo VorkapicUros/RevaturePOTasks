@@ -1,0 +1,7 @@
+A.
+
+We know that on Thursday the watch read 8:05pm when it should have read 8:00pm
+We also know that on Monday morning, 84 hours later, the clock read 7:53pm when it should have read 8:00am
+This would be a rate of change of -12min over 84 hours, or -1min/7hrs
+Simple math tells us that the watch should have read the correct time 35hours after 8:00pm Thursday,
+Or 7:00am Saturday morning.
