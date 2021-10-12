@@ -10,18 +10,15 @@ public class CProblem {
 
     public double UniqueFract(int denominator) {
         HashSet<double> hs = new HashSet<double>();
+        double sum = 0;
 
         for (int i = 2; i <= denominator; i++) {
             for (int j = 1; j < i; j++) {
-                hs.Add((double) Math.Round((double) j/i, 5));
+                if (hs.Add((double) Math.Round((double) j/i, 5))) {
+                    sum += Math.Round((double) j/i, 5);
+                }
             }
         }
-
-        double sum = 0;
-        foreach (double val in hs) {
-            sum += val;
-        }
-
         return (double) Math.Round(sum, 4);
     }
 }
