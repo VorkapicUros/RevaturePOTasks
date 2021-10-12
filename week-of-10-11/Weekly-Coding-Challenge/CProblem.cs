@@ -14,8 +14,9 @@ public class CProblem {
 
         for (int i = 2; i <= denominator; i++) {
             for (int j = 1; j < i; j++) {
-                if (hs.Add((double) Math.Round((double) j/i, 5))) {
-                    sum += Math.Round((double) j/i, 5);
+                double fract = Math.Round((double) j/i, 5);
+                if (hs.Add(fract)) {
+                    sum += fract;
                 }
             }
         }
