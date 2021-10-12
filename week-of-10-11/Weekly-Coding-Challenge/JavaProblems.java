@@ -33,7 +33,6 @@ public class JavaProblems {
 
     public boolean isRotatedString(String a, String b) {
         if (a.length() != b.length()) return false;
-        StringBuilder sbA = new StringBuilder(a);
         for (int i = 0; i < a.length() - 1; i++) {
             if (a.equals(b)) return true;
             a = a.substring(1, a.length()) + a.substring(0, 1);
