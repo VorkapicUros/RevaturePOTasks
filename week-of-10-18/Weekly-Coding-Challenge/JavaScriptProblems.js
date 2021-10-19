@@ -7,16 +7,16 @@ function trackRobot() {
     for (let i = 0; i < arguments.length; i++) {
         switch (i % 4) {
             case 0:
-                horiz += arguments[i];
-                break;
-            case 1:
                 verti += arguments[i];
                 break;
+            case 1:
+                horiz += arguments[i];
+                break;
             case 2:
-                horiz -= arguments[i];
+                verti -= arguments[i];
                 break;
             case 3:
-                verti -= arguments[i];
+                horiz -= arguments[i];
                 break;
         }
     }
