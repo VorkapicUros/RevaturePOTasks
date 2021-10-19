@@ -7,7 +7,7 @@ public class JavaProblem {
     }
 
     public char flip (char c) {
-        if (c < 65 || c > 90 && c < 97 || c > 122) return c;
+        if (c < 'A' || c > 'Z' && c < 'a' || c > 'z') return c;
         int startPoint = Character.isUpperCase(c) ? (int) 'A' : (int) 'a';
         int numC = (int) c - startPoint;
         return (char) (startPoint + (25 - numC));
